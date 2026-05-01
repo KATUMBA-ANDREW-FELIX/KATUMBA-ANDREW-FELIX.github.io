@@ -367,7 +367,7 @@
                     Achievements & Awards</h2>
             </div>
 
-            <div class="max-w-5xl mx-auto">
+            <div class="max-w-5xl mx-auto flex flex-col gap-8">
                 <div
                     class="glass border border-zinc-800 hover:border-cyan-500/50 rounded-3xl overflow-hidden relative group transition-all duration-500 hover:shadow-[0_0_40px_-15px_rgba(34,211,238,0.3)]">
                     <div
@@ -406,6 +406,39 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Google Achievements -->
+                <a href="https://me.developers.google.com/u/105867654700644306104" target="_blank"
+                    class="glass border border-zinc-800 hover:border-cyan-500/50 rounded-3xl p-8 md:p-10 relative group transition-all duration-500 hover:shadow-[0_0_40px_-15px_rgba(34,211,238,0.3)] flex flex-col md:flex-row items-center gap-8 md:gap-10">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl pointer-events-none"></div>
+                    
+                    <div class="w-20 h-20 md:w-28 md:h-28 shrink-0 bg-zinc-900/80 rounded-full flex items-center justify-center border border-zinc-700 group-hover:border-cyan-400 transition-colors shadow-lg z-10">
+                        <i class="fab fa-google text-4xl md:text-5xl text-white"></i>
+                    </div>
+
+                    <div class="z-10 flex-1 text-center md:text-left w-full">
+                        <div class="inline-flex items-center gap-2 px-4 py-2 bg-zinc-900 border border-cyan-500/30 rounded-full text-cyan-400 text-xs font-medium mb-4">
+                            <i class="fas fa-medal"></i>
+                            Google Developer Profile
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-bold text-white mb-3 leading-tight font-heading group-hover:text-cyan-100 transition-colors">
+                            Google Achievements & Badges</h3>
+                        <p class="text-zinc-400 leading-relaxed mb-6">
+                            View my official Google Developer profile showcasing my collected badges, completed pathways, and achievements across various Google technologies and developer courses.
+                        </p>
+                        
+                        <!-- Badges Display Area -->
+                        <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-8">
+                            <img src="https://img.shields.io/badge/Google_Cloud-Certified-blue?style=for-the-badge&logo=google-cloud" alt="Google Cloud" class="h-8 md:h-10 object-contain rounded hover:scale-105 transition-transform">
+                            <img src="https://img.shields.io/badge/Android-Developer-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Developer" class="h-8 md:h-10 object-contain rounded hover:scale-105 transition-transform">
+                            <img src="https://img.shields.io/badge/Firebase-Expert-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" class="h-8 md:h-10 object-contain rounded hover:scale-105 transition-transform">
+                        </div>
+
+                        <div class="flex items-center justify-center md:justify-start gap-3 text-cyan-400 group-hover:text-cyan-300 font-semibold">
+                            View Profile <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
 
@@ -419,26 +452,26 @@
 
             <div class="grid md:grid-cols-2 gap-8">
                 <!-- Stats -->
-                <div>
+                <div class="w-full flex justify-center overflow-hidden">
                     <img src="https://github-readme-stats.vercel.app/api?username=KATUMBA-ANDREW-FELIX&theme=radical&hide_border=true&show_icons=true&include_all_commits=true"
-                        alt="GitHub Stats" class="stat-img w-full rounded-2xl">
+                        alt="GitHub Stats" class="stat-img max-w-full h-auto object-contain rounded-2xl">
                 </div>
 
                 <!-- Streak -->
-                <div>
+                <div class="w-full flex justify-center overflow-hidden">
                     <img src="https://github-readme-streak-stats.herokuapp.com/?user=KATUMBA-ANDREW-FELIX&theme=radical&hide_border=true"
-                        alt="Contribution Streak" class="stat-img w-full rounded-2xl">
+                        alt="Contribution Streak" class="stat-img max-w-full h-auto object-contain rounded-2xl">
                 </div>
             </div>
 
-            <div class="mt-10 flex flex-col items-center gap-8">
+            <div class="mt-10 flex flex-col items-center gap-8 w-full overflow-hidden">
                 <!-- Trophies -->
                 <img src="https://github-profile-trophy.vercel.app/?username=KATUMBA-ANDREW-FELIX&theme=radical&margin-w=15&margin-h=15&no-bg=true"
-                    alt="GitHub Trophies" class="stat-img max-w-2xl">
+                    alt="GitHub Trophies" class="stat-img max-w-full h-auto object-contain md:max-w-2xl">
 
                 <!-- Top Languages -->
                 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KATUMBA-ANDREW-FELIX&theme=radical&layout=compact&hide_border=true"
-                    alt="Top Languages" class="stat-img">
+                    alt="Top Languages" class="stat-img max-w-full h-auto object-contain md:max-w-md">
             </div>
         </section>
 
